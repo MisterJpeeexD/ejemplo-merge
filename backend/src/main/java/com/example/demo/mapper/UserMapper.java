@@ -14,8 +14,10 @@ public class UserMapper {
             return null;
         }
         User user = new User();
-        user.setName(dto.getName());
         user.setEmail(dto.getEmail());
+        user.setPasswordHash(dto.getPasswordHash());
+        user.setNombres(dto.getNombres());
+        user.setApellidos(dto.getApellidos());
         return user;
     }
 
@@ -25,8 +27,9 @@ public class UserMapper {
         }
         UserResponseDTO dto = new UserResponseDTO();
         dto.setId(user.getId());
-        dto.setName(user.getName());
         dto.setEmail(user.getEmail());
+        dto.setNombres(user.getNombres());
+        dto.setApellidos(user.getApellidos());
         return dto;
     }
 
