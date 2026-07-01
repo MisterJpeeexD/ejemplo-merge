@@ -49,3 +49,6 @@ buildNumber.properties
 
 # Mac Os
 .DS_Store
+
+# Draw background
+.img/draw

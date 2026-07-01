@@ -917,3 +917,106 @@ h1 {
   .footer-bottom-content p { line-height: 2; }
   .footer-bottom-content span, .footer-bottom-content strong { display: block; }
 }
+
+/* Login page */
+
+body {
+  background-image: url("/img/background-login.png");  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: #0b0d10;
+  margin: 0;
+  padding: 0;
+}
+
+.badge{
+  border-color: rgba(67, 74, 90);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgba(48, 57, 74, 100%);
+}
+
+#dot-text {
+  color: rgb(240, 138, 112);
+  font-size: 1rem;
+}
+
+#text-login-TCB {
+  color: white;
+  font-weight: bold ;
+}
+
+.text-h1{
+  color: white;
+}
+
+.base-subtext{
+  color: white;
+  margin-top: 10px;
+}
+
+.login-box-text-h2{
+  color: white;
+  justify-content: center;
+}
+
+.login-box-text{
+  color: white;
+}
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  gap: 80px;
+  padding: 40px;
+}
+
+#login-box {
+  background-color: rgba(0, 0, 0, 0.4); /* Fondo del recuadro de login */
+  padding: 40px;
+  border-radius: 24px;
+  width: 100%;
+  max-width: 450px;
+  border: 1px solid #333;
+}
+
+.highlight {
+  background: linear-gradient(to right, #6366f1, #d946ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background: #25282c;
+  border: 1px solid #333;
+  border-radius: 8px;
+  color: white;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 12px;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.brand-orange {
+  color: #f97316;
+}
+
+.brand-blue {
+  color: #161af9;
+}
